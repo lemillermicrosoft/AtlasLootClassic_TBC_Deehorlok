@@ -25,29 +25,26 @@ data["WarlockAffliction_P3"] = {
     name = AL["Warlock Affliction BiS (Phase 3) - Deehorlok"],
     ContentType = SET_CONTENT,
     items = {
-        -- Head: expanded per request. All cloth, all caster, all Head slot.
+        -- Head: expanded per request. All cloth, all caster, all Head slot. BT/Hyjal/ZA only.
         { name = format(AL["Head"], "1"), [NORMAL_DIFF] = {
             { 1, 31051 }, -- Hood of the Malefic (T6, Illidan)
             { 2, 32525 }, -- Cowl of the Illidari High Lord (BT - Illidan, SP64 hit21 crit47)
             { 3, 33453 }, -- Hood of Hexing (ZA - Malacrass)
-            { 4, 34332 }, -- Cowl of Gul'dan (SWP T6.5, Kil'jaeden)
         } },
         -- Shoulders: Mantle of Malefic (T6), Mantle of Nimble Thought (BT badge alt)
         { name = format(AL["Shoulders"], "2"), [NORMAL_DIFF] = {
             { 1, 31054 }, -- Mantle of the Malefic (T6)
             { 2, 30215 }, -- Mantle of the Corruptor (T5 backup)
         } },
-        -- Back: cloaks only (removed totem from v0.1)
+        -- Back: cloaks only (removed totem from v0.1). BT/Hyjal/ZA only.
         { name = format(AL["Back"], "2"), [NORMAL_DIFF] = {
             { 1, 32331 }, -- Cloak of the Illidari Council (BT)
             { 2, 29992 }, -- Royal Cloak of the Sunstriders (TK - Kael'thas)
             { 3, 28797 }, -- Brute Cloak of the Ogre-Magi (Gruul)
-            { 4, 34242 }, -- Tattered Cape of Antonidas (SWP alt)
         } },
-        -- Chest: cloth caster only (removed Nordrassil Gloves + Sea-Witch from v0.1)
+        -- Chest: cloth caster only (removed Nordrassil Gloves + Sea-Witch from v0.1). BT/Hyjal/ZA only.
         { name = format(AL["Chest"], "2"), [NORMAL_DIFF] = {
             { 1, 31052 }, -- Robe of the Malefic (T6)
-            { 2, 34364 }, -- Sunfire Robe (SWP)
         } },
         -- Wrist
         { name = format(AL["Wrist"], "2"), [NORMAL_DIFF] = {
@@ -55,11 +52,10 @@ data["WarlockAffliction_P3"] = {
             { 2, 30870 }, -- Cuffs of Devastation (SSC)
             { 3, 29918 }, -- Mindstorm Wristbands (Kara)
         } },
-        -- Hands: cloth only (removed Robe of Corruptor from v0.1)
+        -- Hands: cloth only (removed Robe of Corruptor from v0.1). BT/Hyjal/ZA only.
         { name = format(AL["Hands"], "2"), [NORMAL_DIFF] = {
             { 1, 31050 }, -- Gloves of the Malefic (T6)
             { 2, 29987 }, -- Gauntlets of the Sun King (TK - Kael'thas)
-            { 3, 34344 }, -- Handguards of Defiled Worlds (SWP)
         } },
         -- Waist
         { name = format(AL["Waist"], "2"), [NORMAL_DIFF] = {
@@ -77,46 +73,41 @@ data["WarlockAffliction_P3"] = {
             { 2, 30067 }, -- Velvet Boots of the Guardian (Kara)
             { 3, 30894 }, -- Blue Suede Shoes (Hyjal)
         } },
-        -- Neck
+        -- Neck. BT/Hyjal/ZA only.
         { name = format(AL["Neck"], "2"), [NORMAL_DIFF] = {
             { 1, 30015 }, -- The Sun King's Talisman (TK)
             { 2, 32349 }, -- Translucent Spellthread Necklace (BT)
-            { 3, 34204 }, -- Amulet of Unfettered Magics (SWP)
         } },
-        -- Rings (removed Magtheridon's Head quest item from v0.1)
+        -- Rings (removed Magtheridon's Head quest item from v0.1). BT/Hyjal/ZA only.
         { name = format(AL["Rings"], "2"), [NORMAL_DIFF] = {
             { 1, 32527 }, -- Ring of Ancient Knowledge (BT)
             { 2, 29305 }, -- Band of the Eternal Sage (Kara)
             { 3, 32247 }, -- Ring of Captured Storms (BT)
             { 4, 28793 }, -- Band of Crimson Fury (Gruul)
-            { 5, 34230 }, -- Ring of Omnipotence (SWP)
         } },
-        -- Trinkets (removed Dark Iron Smoking Pipe + mage Ashtongue from v0.1)
+        -- Trinkets (removed Dark Iron Smoking Pipe + mage Ashtongue from v0.1). BT/Hyjal/ZA only.
         { name = format(AL["Trinkets"], "2"), [NORMAL_DIFF] = {
             { 1, 32483 }, -- The Skull of Gul'dan (BT - Illidan)
             { 2, 29370 }, -- Icon of the Silver Crescent (badge)
             { 3, 33829 }, -- Hex Shrunken Head (ZA)
-            { 4, 34429 }, -- Shifting Naaru Sliver (SWP)
         } },
         -- Main Hand: only Zhar'doom listed (32374 confirmed = Zhar'doom Greatstaff);
         -- 30910/29988/32332 didn't validate. See PR notes.
         { name = format(AL["Main Hand"], "2"), [NORMAL_DIFF] = {
             { 1, 32374 }, -- Zhar'doom, Greatstaff of the Devourer (Illidan)
         } },
-        -- Offhand
+        -- Offhand. BT/Hyjal/ZA only.
         { name = format(AL["Offhand"], "2"), [NORMAL_DIFF] = {
-            { 1, 34179 }, -- Heart of the Pit (SWP)
-            { 2, 32361 }, -- Blind Seer's Icon (BT)
-            { 3, 30872 }, -- Chronicle of Dark Secrets (SSC)
-            { 4, 29270 }, -- Flametongue Seal (Kara)
+            { 1, 32361 }, -- Blind Seer's Icon (BT)
+            { 2, 30872 }, -- Chronicle of Dark Secrets (SSC)
+            { 3, 29270 }, -- Flametongue Seal (Kara)
         } },
         -- Wand: v0.1 had 32354 (Crown of Empowered Fate - plate head!) as #1.
-        -- Wands below sourced from Hoizame data-tbc.lua (TBC-native, not in WotLK Wowhead DB).
+        -- Wands below sourced from Hoizame data-tbc.lua (TBC-native, not in WotLK Wowhead DB). BT/Hyjal/ZA only.
         { name = format(AL["Wand"], "2"), [NORMAL_DIFF] = {
             { 1, 32343 }, -- Wand of Prismatic Focus (Illidari Council BT)
-            { 2, 34348 }, -- Wand of the Demonsoul (SWP)
-            { 3, 29982 }, -- Wand of the Forgotten Star (TK - Kael'thas)
-            { 4, 29996 }, -- Rod of the Sun King (TK badge)
+            { 2, 29982 }, -- Wand of the Forgotten Star (TK - Kael'thas)
+            { 3, 29996 }, -- Rod of the Sun King (TK badge)
         } },
     },
 }

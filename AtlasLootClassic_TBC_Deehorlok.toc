@@ -1,0 +1,10 @@
+## Interface: 20506
+## Author: GitHub Copilot c/o deehoc
+## Version: 0.1.0
+## Dependencies: AtlasLootClassic
+## LoadOnDemand: 1
+## Title: |TInterface\AddOns\AtlasLootClassic\atlasTBC:16|t AtlasLootTBC |cFFCC66FF[Deehorlok Aff P3]|r
+## Notes: AtlasLoot BIS module — Affliction Warlock BT/Hyjal (Phase 3), curated for Deehorlok.
+## X-AtlasLootClassic-LootModule: 1
+
+deehorlokDB.lua

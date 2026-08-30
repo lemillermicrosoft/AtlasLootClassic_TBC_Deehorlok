@@ -26,7 +26,7 @@ data["WarlockAffliction_P3"] = {
         { name = format(AL["Head"], "1"), [NORMAL_DIFF] = {
             { 1, 31051 }, -- Hood of the Malefic (T6 - Archimonde, Hyjal)
             { 2, 32525 }, -- Cowl of the Illidari High Lord (Illidan, BT)
-            { 3, 24266 }, -- Spellstrike Hood (Tailoring)
+            { 3, 30212 }, -- Hood of the Corruptor (Lady Vashj, SSC - T5)
         } },
         -- Neck
         { name = format(AL["Neck"], "2"), [NORMAL_DIFF] = {
